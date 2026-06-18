@@ -1,4 +1,4 @@
-﻿:root{
+:root{
 
     --red:#E00000;
     --black:#161616;
@@ -517,23 +517,24 @@ td{
 /* FOOTER */
 /* ========================= */
 
-footer {
-    background-color: var(--red);
-    color: var(--white);
-    text-align: center;
-    padding: 60px 8%;
+footer{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:70px 8%;
+
 }
 
-footer h3 {
-    margin-bottom: 15px;
-    font-size: 24px;
-    text-transform: uppercase;
-}
+footer img{
 
-footer p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: var(--white);
+    width:120px;
+
+    margin-bottom:20px;
+
 }
 
 /* ========================= */
@@ -617,5 +618,5 @@ footer p {
         font-size:2rem;
 
     }
-    
+
 }
