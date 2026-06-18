@@ -619,24 +619,27 @@ footer img{
 
     }
 
-.footer-rojo {
-    background-color: #d32f2f; /* Un rojo intenso y profesional */
-    color: #ffffff;            /* Letras en blanco */
+/* Usamos el ID para tener más fuerza y asegurar que tome estos estilos */
+#footer-empresa.footer-rojo {
+    background-color: #d32f2f !important; /* !important obliga a usar este color */
+    color: #ffffff !important;            
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px 20px;
     margin-top: 50px;
+    width: 100%;
 }
 
-.footer-rojo h3 {
+#footer-empresa.footer-rojo h3 {
+    color: #ffffff !important; /* Asegura que el título sea blanco */
     margin-bottom: 10px;
     font-size: 24px;
-    text-transform: uppercase; /* Para darle más impacto al nombre */
+    text-transform: uppercase;
 }
 
-.footer-rojo p {
+#footer-empresa.footer-rojo p {
+    color: #ffffff !important; /* Asegura que los textos sean blancos */
     margin: 5px 0;
     font-size: 16px;
-    font-weight: 300;
 }
     
 }
